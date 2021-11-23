@@ -1,0 +1,72 @@
+/*resume.htm style sheet */
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sidePanel {
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  float: left;
+  overflow: auto;
+  text-align: center;
+  background-color: rgba(52, 157, 189, 0.911);
+}
+.avatar {
+  height: 350px;
+  line-height: 0.3;
+  border-radius: 50px 50px;
+  background-color: rgb(10, 177, 243);
+  animation: heartBeat;
+}
+.contact {
+  animation: heartBeat;
+  list-style-type: none;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.animate:hover {
+  animation: heartBeat;
+}
+.mainPanel {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 100%;
+  clear: left;
+  overflow: auto;
+  line-height: 1.5;
+  font-size: 12pt;
+  background-color: rgb(134, 194, 218);
+}
+.edu {
+  line-height: 0.3;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+
+  14% {
+    transform: scale(1.3);
+  }
+
+  28% {
+    transform: scale(1);
+  }
+
+  42% {
+    transform: scale(1.3);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+}
+
+.heartBeat {
+  animation-name: heartBeat;
+  animation-duration: calc(var(--animate-duration) * 1.3);
+  animation-timing-function: ease-in-out;
+}

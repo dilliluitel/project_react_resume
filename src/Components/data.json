@@ -1,0 +1,25 @@
+const works = [
+    {
+        "id": 0,
+        "title": "Datacenter Technician",
+        "location": "Des Moines IA",
+        "item1": "Test, troubleshoot, repair, and replace server hardware, networking devices, PDU/UPS units.",
+        "item2": "Perform cabling, mapping, rack/stack, and other data center infrastructures and gears.",
+        "item3": "Report bugs and assist engineering teams to debug and maintain automation processes and tools."
+
+    },
+    {
+        "id": 0,
+        "title": "Datacenter Technician",
+        "item1": "",
+        "item2": "",
+        "item3": ""
+    },
+    {
+        "id": 0,
+        "title": "Datacenter Technician",
+        "item1": "",
+        "item2": "",
+        "item3": ""
+    }
+]
